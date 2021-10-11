@@ -582,27 +582,6 @@ message WavelengthData
 }
 
 //
-// \brief A description for the positions of the pedals.
-//
-message Pedalry
-{
-    // Position of the acceleration pedal.
-    // Range: 0-1 (Unpressed - fully pressed)
-    //
-    optional double pedal_position_acceleration = 1;
-
-    // Position of the brake pedal.
-    // Range: 0-1 (Unpressed - fully pressed)
-    //
-    optional double pedal_position_brake = 2;
-
-    // Position of the clutch pedal.
-    // Range: 0-1 (Unpressed - fully pressed)
-    //
-    optional double pedal_position_clutch = 3;
-}
-
-//
 // \brief A description of the steering wheel.
 //
 message VehicleSteeringWheel
